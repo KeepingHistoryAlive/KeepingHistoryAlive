@@ -21,16 +21,16 @@ header{
 	display: block;
 	color: black;
 }
-#main h1 {
+ h1 {
 	font-size: 70px;
 }
-#main h2 {
+ h2 {
 	font-size: 30px;
 }
-#main span {
+span {
 	font-size: 20px;
 }
-#main button {
+ button {
 	color: black;
 	border: none;
 	height: 40px;
@@ -41,7 +41,7 @@ header{
 	background-color: #5cb85c;
 	border-color: #4cae4c;
 }
-#main button:hover {
+ button:hover {
 	cursor: pointer;
 	background-color: #4d9e4d;
 	border-color: #3c893c;
