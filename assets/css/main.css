@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/fonts.googleapis.com/css?family=Montserrat');
 body {
 	margin: 0;
 	height: 100%;
@@ -37,12 +37,12 @@ body {
 	background-color: #00144C;
 	color: #EFEFEF !important;
 }
-header{
-	flex:auto;
+#header {
+	flex: 0 1 auto;
 }
 #back {
 	flex: 1 1 auto;
-	background-image:("assets/img/place.png);
+	background-image:("../assets/img/place.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -60,17 +60,17 @@ header{
 	display: block;
 	color: black;
 }
- h1 {
+#main h1 {
 	font-size: 70px;
 }
- h2 {
+#main h2 {
 	font-size: 30px;
 }
-span {
+#main span {
 	font-size: 20px;
 }
- button {
-	color: black;
+#main button {
+	color: white;
 	border: none;
 	height: 40px;
 	width: 160px;
@@ -80,7 +80,7 @@ span {
 	background-color: #5cb85c;
 	border-color: #4cae4c;
 }
- button:hover {
+#main button:hover {
 	cursor: pointer;
 	background-color: #4d9e4d;
 	border-color: #3c893c;
